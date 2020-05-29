@@ -8,7 +8,7 @@
     "dev": "watch 'yarn build' src",
     "lint": "eslint \"./src/**/*.js\"",
     "lint-fix": "yarn lint --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,14 @@
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^26.0.1",
+    "jest-tobetype": "^1.2.3",
     "prettier": "2.0.5",
     "watch": "^1.0.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./jest-config"
+    ]
   }
 }
