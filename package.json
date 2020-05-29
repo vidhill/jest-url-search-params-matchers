@@ -1,0 +1,27 @@
+{
+  "name": "jest-url-search-params-matchers",
+  "version": "0.0.1",
+  "description": "Jest matchers for URLSearchParams primitive",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhill/jest-url-search-params-matchers.git"
+  },
+  "keywords": [
+    "jest",
+    "matcher",
+    "URLSearchParams",
+    "query",
+    "params",
+    "queryParams"
+  ],
+  "author": "David Hill <d@vidhill.com> (https://github.com/vidhill)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vidhill/jest-url-search-params-matchers/issues"
+  },
+  "homepage": "https://github.com/vidhill/jest-url-search-params-matchers#readme",
+}
