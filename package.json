@@ -5,6 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
+    "dev": "watch 'yarn build' src",
     "lint": "eslint \"./src/**/*.js\"",
     "lint-fix": "yarn lint --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
