@@ -9,8 +9,12 @@
 		"ecmaVersion": 2018,
 		"sourceType": "module"
 	},
-	"plugins": ["prettier"],
-	"extends": ["prettier", "eslint:recommended", "plugin:import/errors"],
+	"plugins": ["prettier", "jest"],
+	"extends": [
+		"prettier", 
+		"eslint:recommended", 
+		"plugin:import/errors"
+	],
 	"rules": {
 		"prettier/prettier": "error",
 		"import/named": "error"
