@@ -10,8 +10,9 @@
 		"sourceType": "module"
 	},
 	"plugins": ["prettier"],
-	"extends": ["prettier", "eslint:recommended"],
+	"extends": ["prettier", "eslint:recommended", "plugin:import/errors"],
 	"rules": {
-		"prettier/prettier": "error"
+		"prettier/prettier": "error",
+		"import/named": "error"
 	}
 }
