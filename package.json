@@ -23,5 +23,22 @@
   "bugs": {
     "url": "https://github.com/vidhill/jest-url-search-params-matchers/issues"
   },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
   "homepage": "https://github.com/vidhill/jest-url-search-params-matchers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1"
+  }
 }
