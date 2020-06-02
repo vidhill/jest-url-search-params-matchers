@@ -17,6 +17,7 @@
 	],
 	"rules": {
 		"prettier/prettier": "error",
-		"import/named": "error"
+		"import/named": "error",
+		"no-shadow":"error"
 	}
 }
