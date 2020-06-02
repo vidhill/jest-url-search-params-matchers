@@ -47,5 +47,8 @@
     "setupFilesAfterEnv": [
       "./jest-config"
     ]
+  },
+  "dependencies": {
+    "jest-matcher-utils": "^26.0.1"
   }
 }
